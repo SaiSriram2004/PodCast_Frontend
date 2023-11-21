@@ -15,6 +15,7 @@ import CurrentPlayingLarge from "../fragment/CurrentPlayingLarge";
 import Search from "./Search";
 import About from "./About";
 import Update from "./Update";
+import Delete from "./Delete";
 import Playlist from "../fragment/Playlist";
 import {Skeleton} from "@material-ui/lab";
 
@@ -32,6 +33,8 @@ function getCurrPage(pathName) {
             return <About/>
         case "/home/update":
             return <Update/>
+        case "/home/delete":
+            return <Delete/>
         default:
             if (pathName.startsWith("/home/playlist/")) {
                 return <Playlist/>

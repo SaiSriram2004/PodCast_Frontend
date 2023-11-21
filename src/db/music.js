@@ -7,9 +7,9 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "electronic",
-    musicName: "Clarx - Shakedown [NCS Release].mp3",
+    musicName: "ClarxShakedown.mp3",
     attribution: {
-      song: "Clarx - Shakedown [NCS Release]",
+      song: "ClarxShakedown",
       musicBy: "NoCopyrightSounds",
       download: "http://ncs.io/Shakedown",
       stream: "http://youtu.be/qJT0mc3q6Lg",
@@ -55,7 +55,7 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "electronic",
-    musicName: "Subtact - Want You (feat. Sara Skinner) [NCS Release].mp3",
+    musicName: "Subtact.mp3",
     attribution: {
       song: "Subtact - Want You (feat. Sara Skinner) [NCS Release]",
       musicBy: "NoCopyrightSounds",
@@ -71,7 +71,7 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "electronic",
-    musicName: "Midranger - Apocalypse [NCS Release].mp3",
+    musicName: "Midranger.mp3",
     attribution: {
       song: "Midranger - Apocalypse [NCS Release]",
       musicBy: "NoCopyrightSounds",
@@ -87,7 +87,7 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "electronic",
-    musicName: "N3WPORT - Alive (feat. Neoni) [NCS Release].mp3",
+    musicName: "N3WPORT.mp3",
     attribution: {
       song: "N3WPORT - Alive (feat. Neoni) [NCS Release]",
       musicBy: "NoCopyrightSounds",
@@ -135,7 +135,7 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "electronic",
-    musicName: "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
+    musicName: "Ignite1.mp3",
     attribution: {
       song: "Heuse & Tom Wilson - Ignite [NCS Release]",
       musicBy: "NoCopyrightSounds",
@@ -151,7 +151,7 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "electronic",
-    musicName: "intouch - Baby Sweet [NCS Release].mp3",
+    musicName: "Baby Sweet.mp3",
     attribution: {
       Song: "intouch - Baby Sweet [NCS Release]",
       musicBy: "NoCopyrightSounds",
@@ -167,7 +167,7 @@ let musicDB = [
     lang: "ENGLISH",
     timesPlayed: 0,
     type: "instrumental",
-    musicName: "Diamond Eyes – Devil [NCS Release].mp3",
+    musicName: "Diamond Eyes.mp3",
     attribution: {
       Song: "Diamond Eyes – Devil [NCS Release]",
       musicBy: "NoCopyrightSounds",
@@ -199,7 +199,7 @@ let musicDB = [
     lang: "TELUGU",
     timesPlayed: 0,
     type: "romantic",
-    musicName: "Na Roja Nuvve.mp4",
+    musicName: "Na Roja Nuvve.mp3",
     attribution: {
       Song: "Naa Roja Nuvve",
       musicBy: "Hesham Abdul Wahab",
@@ -717,6 +717,16 @@ let musicDB = [
     timesPlayed: 0,
     type: "romantic",
     musicName: "Vaa Vaathi .mp3",
+  },
+  {
+    id: 60,
+    name: "Naa Ready (From Leo)",
+    author_name: "Vijay, Anirudh Ravichander, Asal Kolaar",
+    img: "naaready.jpg",
+    lang: "TAMIL",
+    timesPlayed: 0,
+    type: "electronic",
+    musicName: "Naa Ready.mp3",
   },
 
 ];

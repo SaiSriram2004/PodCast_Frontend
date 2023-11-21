@@ -31,12 +31,15 @@ const PodcastForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/podcasts', formData);
+      const response = await axios.post('https://backedn-7pmw.onrender.com/api/podcasts', formData);
       console.log('Podcast created/updated:', response.data);
+      window.alert('Podcast Created/Updated');
+
       // Reset the form fields
       resetForm();
     } catch (error) {
       console.error('Error creating/updating podcast:', error);
+      window.alert('Error creating/updating podcast. Please try again.');
     }
   };
 
