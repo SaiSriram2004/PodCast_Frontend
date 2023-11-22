@@ -3,6 +3,11 @@ import '../assets/scss/Developer.scss';
 import { IconButton } from "@material-ui/core";
 import AvatarImage2 from "../assets/img/avatar.jpg";
 import AvatarImage1 from "../assets/img/avatar1.jpg";
+import AvatarImage5 from "../assets/img/avatar5.jpg";
+import AvatarImage4 from "../assets/img/avatar4.jpg";
+import AvatarImage3 from "../assets/img/avatar3.jpg";
+
+
 import { Facebook, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
 
 const Developer = () => {
@@ -15,8 +20,7 @@ const Developer = () => {
           <img src={AvatarImage2} alt="Profile 1" />
           <div className={"Card-details"}>
             <h3>Sai Sriram Reddy</h3>
-            <p>Full Stack developer</p>
-            <p>Competitive Coder</p>
+            <p>Backend Developer</p>
           </div>
         </div>
 
@@ -25,38 +29,34 @@ const Developer = () => {
           <img src={AvatarImage1} alt="Profile 2" />
           <div className={"Card-details"}>
             <h3>Surya</h3>
-            <p>Frontend Developer</p>
-            <p>UI/UX Designer</p>
+            <p>Backend Developer</p>
           </div>
         </div>
 
         {/* Developer 3 */}
         <div className="Developer-profileCard">
-          <img src={AvatarImage2} alt="Profile 3" />
+          <img src={AvatarImage3} alt="Profile 3" />
           <div className={"Card-details"}>
             <h3>Yashwantha Rao</h3>
-            <p>Backend Developer</p>
-            <p>Database Expert</p>
+            <p>Frontend Developer</p>
           </div>
         </div>
 
         {/* Developer 4 */}
         <div className="Developer-profileCard">
-          <img src={AvatarImage2} alt="Profile 4" />
+          <img src={AvatarImage4} alt="Profile 4" />
           <div className={"Card-details"}>
             <h3>Revanth</h3>
             <p>Frontend Developer</p>
-            <p>MERN Stack Developer </p>
           </div>
         </div>
 
         {/* Developer 5 */}
         <div className="Developer-profileCard">
-          <img src={AvatarImage2} alt="Profile 5" />
+          <img src={AvatarImage5} alt="Profile 5" />
           <div className={"Card-details"}>
             <h3>Dhanush</h3>
-            <p>Backend Developer</p>
-            <p>UI/UX Designer</p>
+            <p>Frontend Developer</p>
           </div>
         </div>
 

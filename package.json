@@ -1,6 +1,6 @@
 {
-  "name": "vusic",
-  "homepage": "http://vusic.techstore.dev/",
+  "name": "Pulseplay",
+  "homepage": "http://Pulseplay.techstore.dev/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
